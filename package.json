@@ -1,0 +1,41 @@
+{
+  "name": "import-export",
+  "version": "1.0.0",
+  "description": "second hometask",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakabunga/import-export.git"
+  },
+  "keywords": [
+    "second",
+    "task"
+  ],
+  "author": "vakabunga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakabunga/import-export/issues"
+  },
+  "homepage": "https://github.com/vakabunga/import-export#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
